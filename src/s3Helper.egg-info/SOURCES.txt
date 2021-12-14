@@ -1,0 +1,9 @@
+pyproject.toml
+setup.py
+src/s3Helper/__init__.py
+src/s3Helper/s3Helper.py
+src/s3Helper.egg-info/PKG-INFO
+src/s3Helper.egg-info/SOURCES.txt
+src/s3Helper.egg-info/dependency_links.txt
+src/s3Helper.egg-info/requires.txt
+src/s3Helper.egg-info/top_level.txt

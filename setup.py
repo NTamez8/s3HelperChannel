@@ -1,11 +1,14 @@
-from setuptools import setup
+import setuptools
 
-
-setup(
+setuptools.setup(
         name='s3Helper',
         version='0.1.0',
         author='Nicolas Tamez',
-        packages=['s3Helper'],
+        author_email="Me@email.com",
+        description="A helper for s3",
+        url="https://github.com/NTamez8/s3HelperChannel.git",
+        package_dir={"":"src"},
+        packages=setuptools.find_packages(where="src"),
         install_requires=[
             'boto3'
             ]
